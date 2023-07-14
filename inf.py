@@ -8,8 +8,8 @@ ans = pipeline(
     model='speech_frcrn_ans_cirm_16k') # model='damo/speech_frcrn_ans_cirm_16k'
 
 
-wav_path = "../../datasets/VoxSRC/Full_Data/voxconverse/VAL46/wav/"
-output_path = "outputs/"
+wav_path = "../../datasets/VoxSRC/Full_Data/voxconverse/DEV402/wav/"
+output_path = "se_result/VoxSRC_DEV402_SE_FRCRN/"
 
 
 file_list = os.listdir(wav_path)
